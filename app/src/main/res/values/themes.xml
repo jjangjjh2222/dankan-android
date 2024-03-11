@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Dankan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_secondary</item>
+        <item name="colorSecondaryVariant">@color/primary_secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+       <!-- <item name="android:windowActionBarOverlay">true</item> &lt;!&ndash; 상단바를 오버레이 모드로 설정 &ndash;&gt;
+        <item name="android:windowActionBar">false</item> &lt;!&ndash; 기본 상단바 숨김 &ndash;&gt;
+        <item name="android:windowNoTitle">true</item> &lt;!&ndash; 타이틀 바 숨김 &ndash;&gt;
+        <item name="android:statusBarColor">@android:color/transparent</item>  상태 표시줄 투명
+        <item name="android:windowTranslucentStatus">true</item> &lt;!&ndash; 상태 표시줄 투명 &ndash;&gt;
+        <item name="android:windowTranslucentNavigation">true</item>  네비게이션 바 투명 -->
+
+    </style>
+    <style name="CustomProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:colorAccent">#ffffff</item>
+    </style>
+</resources>
